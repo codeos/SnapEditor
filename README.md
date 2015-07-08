@@ -40,6 +40,7 @@ For Windows:
 Install node using the installer (I think) and then
 
     npm install -g coffee-script@1.2.0
+    npm install -g requirejs
 
 
 ### Ruby and RubyGems
@@ -80,7 +81,7 @@ however, the `javascripts/` directory is not version controlled.
 Guard is used for continuous compiling. It listens to the `coffeescripts/` directory for any changes. If there is, it will compile the CoffeeScript file into a JavaScript file and place it in `javascripts/`. Use the following command to run Guard.
 
     bundle exec guard start
-    
+
 
 ### Rake
 
